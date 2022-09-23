@@ -12,8 +12,6 @@ class Router
     if (array_key_exists($url, $this->routes)) {
       return $this->routes[$url];
     }
-
-    throw new Exception('No route defined for this url');
   }
 }
 
@@ -23,4 +21,4 @@ $routes = [
 
 $router = new Router($routes);
 
-require $router->direct($_SERVER['REQUEST_URI']);
+require $router->direct('/corporate/broadband');
