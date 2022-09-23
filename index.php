@@ -17,7 +17,8 @@ class Router
 
 $routes = [
   '/index.php' => './mock/home.php',
-  '/index.php/corporate/broadband' => './mock/corporate-broadband.php'
+  '/index.php/corporate/broadband' => './mock/corporate-broadband.php',
+  '/index.php/corporate/contracts' => './mock/Contracts.php'
 ];
 
 $router = new Router($routes);
