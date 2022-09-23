@@ -16,9 +16,9 @@ class Router
 }
 
 $routes = [
-  '/corporate/broadband' => './mock/corporate-broadband.php'
+  '/index.php/corporate/broadband' => './mock/corporate-broadband.php'
 ];
 
 $router = new Router($routes);
 
-require $router->direct('/corporate/broadband');
+require $router->direct($_SERVER["REQUEST_URI"]);
