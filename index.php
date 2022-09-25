@@ -17,8 +17,30 @@ class Router
 
 $routes = [
   '/index.php' => './mock/Home.php',
-  '/index.php/corporate/home' => './mock/Home.php'
+  '/index.php/corporate/home' => './mock/Home.php',
+
+  '/index.php/usagegraph/daily' => './mock/UsageGraph/Daily.php',
+  '/index.php/usagegraph/weekly' => './mock/UsageGraph/Weekly.php',
+  '/index.php/usagegraph/monthly' => './mock/UsageGraph/Monthly.php',
+  '/index.php/usagegraph/yearly' => './mock/UsageGraph/Yearly.php',
+
+  '/index.php/usageTable/daily' => './mock/UsageTable/DailyUsageTableData.php',
+  '/index.php/usageTable/session' => './mock/UsageTable/SessionUsageTableData.php',
+
+  '/index.php/corporate/viatv-subscription' => './mock/ViaTVSubscription/CorporateConnectedTV.php',
+  '/index.php/corporate/iptv-packagelist' => './mock/ViaTVSubscription/PackageList.php',
+  '/index.php/corporate/order-package' => './mock/ViaTVSubscription/OrderPackage.php',
+  '/index.php/corporate/edit-alias' => './mock/ViaTVSubscription/EditAlias.php',
+  '/index.php/corporate/package-order-cancel' => './mock/ViaTVSubscription/PackageOrderCancel.php',
+
   '/index.php/corporate/broadband' => './mock/corporate-broadband.php',
+  '/index.php/consumer/broadband' => './mock/ConsumerBroadband.php',
+  '/index.php/corporate/lease' => './mock/CorporateLease.php',
+
+  '/index.php/corporate/amc-list' => './mock/AMCData.php',
+
+  '/index.php/corporate/billing' => './mock/Billing.php',
+
   '/index.php/corporate/contracts' => './mock/Contracts.php'
 ];
 
