@@ -16,8 +16,8 @@ class Router
 }
 
 $routes = [
-  '/index.php' => './mock/Home.php',
-  '/index.php/corporate/home' => './mock/Home.php',
+  '/index.php' => './mock/home.php',
+  '/index.php/corporate/home' => './mock/home.php',
 
   '/index.php/usagegraph/daily' => './mock/UsageGraph/Daily.php',
   '/index.php/usagegraph/weekly' => './mock/UsageGraph/Weekly.php',
