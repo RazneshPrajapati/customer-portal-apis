@@ -42,6 +42,7 @@ $routes = [
   '/index.php/corporate/billing' => './mock/Billing.php',
 
   '/index.php/corporate/contracts' => './mock/Contracts.php'
+  '/index.php/corporate/documents' => './mock/Documents.php'
 ];
 
 $router = new Router($routes);
