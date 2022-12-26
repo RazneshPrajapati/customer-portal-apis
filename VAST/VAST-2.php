@@ -1,7 +1,7 @@
 <?php
 
 header('Access-Control-Allow-Origin: *');
-header('Content-type: text/xml; charset=utf-8');
+header('Content-Type: text/xml; charset=utf-8');
 
 echo '<VAST version="2.0">
 	<Ad id="preroll-1">
