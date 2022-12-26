@@ -46,7 +46,7 @@ $routes = [
 
 
 //   VAST
-  '/index.php/vast/2' => './VAST/VAST-2.php'
+  // '/index.php/vast/2' => './VAST/VAST-2.php'
 ];
 
 $router = new Router($routes);
