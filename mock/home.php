@@ -13,7 +13,8 @@ echo json_encode(
                 "message" => "Kindly requesting you to clear your pending dues.Click here to view your pending bills.",
                 "color" => "#ec2028",
                 "textColor" => "#ffffff",
-                "type" => "pending"
+                "type" => "pending",
+                "service_id" => ""
             ]
         ],
         "data" => [
